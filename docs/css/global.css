@@ -1,0 +1,68 @@
+@font-face {
+	font-family: "Neon Zone";
+	src: url("Neon\ Zone.otf") format("opentype");
+    }
+    
+
+:root {
+	--main-dark: #1E2B39;
+	--main-bright: #576574;
+	--main-light: #949A92;
+	--neutral: #E9D7A9;
+	--accent: #D73E2E;
+	--white: #EAEADE;
+    }    
+
+html {
+	font-family: 'Dosis', sans-serif;
+	background-color: var(--white);
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 16pt;
+}
+
+a:link, a:visited, a:hover {
+	color: var(--accent);
+}
+
+header {
+	background-color: #1E2B39;
+	font-size: 48pt;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 36pt;
+	padding-bottom: 36pt;
+	color: #F2E4B1;
+	text-shadow: 0px 4px 0px #576574;
+}
+
+header a:link, header a:visited, header a:hover {
+	color: var(--white);
+	text-decoration: none;
+}
+
+nav {
+	padding: 8px;
+	background-color: var(--main-bright);
+	text-align: center;
+	font-size: 18pt;
+	display: flex;
+	justify-content: center;
+}
+
+nav a:link, nav a:visited, nav a:hover {
+	display: inline-block;
+	margin-right: 16px;
+	margin-left: 16px;
+	color: var(--white);
+	text-decoration: none;
+	font-weight: 400;
+}
+
+main {
+	width:800px;
+	margin: 0 auto;
+}
