@@ -17,7 +17,9 @@ Interis is my design for a Zilog Z80-based home computer. The design prioritizes
 - Machine language monitor and BASIC interpreter in ROM
 - Fully CP/M compatible with only a disk expansion card
 
+{% if collections.Interis %}
 ## Articles
 {% for post in collections.Interis %}
 - [{{ post.data.title }}]({{ post.url }})
 {% endfor %}
+{% endif %}

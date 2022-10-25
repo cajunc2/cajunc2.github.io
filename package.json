@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy"
+    "build": "env NODE_ENV=production npx eleventy"
   },
   "keywords": [],
   "author": "",

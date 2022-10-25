@@ -1,5 +1,5 @@
 ---
-title: My Rad Blog
+title: Matthew's Tech Projects
 ---
 
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ title: My Rad Blog
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Dosis:wght@200;300;400;500;600;700;800" rel="stylesheet">
 
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
@@ -24,21 +24,36 @@ title: My Rad Blog
 	<meta name="msapplication-TileColor" content="#2b5797">
 	<meta name="msapplication-config" content="/icons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="/css/glightbox.min.css" />
+	<script src="/scripts/glightbox.min.js"></script>
 </head>
 
 <body>
 	<header><a href="/">Matthew's Tech Projects</a></header>
 	<nav>
 		<a href="/interis/">Interis</a>
-		<a href="/pro-83/">Protec PRO-83</a>
+		<a href="/pro-83/">PRO-83</a>
 		<a href="/kaypro/">Kaypro II</a>
-		<a href="/pentium/">Pentium PC</a>
+		<a href="/pentium/">Pentium</a>
 		<a href="/dev-80/">Dev-80</a>
-		<a href="/cpde/">CPDE Doom Editor</a>
+		<a href="/cpde/">CPDE</a>
 	</nav>
+	
 	<main>
 		{{ content | safe }}
 	</main>
+
+	<script type="text/javascript">
+		const lightbox = GLightbox();
+	</script>
+
+	<footer>
+		<div>
+			All contents copyright &copy; 2022 Matthew Martin. All rights reserved. Check me out on <a href="https://github.com/cajunc2">GitHub</a>.
+		</div>
+	</footer>
+		
 </body>
 
 </html>
