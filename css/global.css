@@ -1,0 +1,153 @@
+@font-face {
+	font-family: "Neon Zone";
+	src: url("Neon\ Zone.otf") format("opentype");
+}
+
+:root {
+	--main-dark: #1E2B39;
+	--main-bright: #576574;
+	--main-light: #949A92;
+	--neutral: #E9D7A9;
+	--accent: #D73E2E;
+	--white: #EAE5DE;
+}
+
+html {
+	font-family: 'Cairo', sans-serif;
+	background-color: var(--white);
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 14pt;
+	color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Dosis', sans-serif;
+}
+
+a:link, a:visited, a:hover {
+	color: var(--accent);
+}
+
+header {
+	font-family: 'Dosis', sans-serif;
+	background-color: #1E2B39;
+	font-size: 48pt;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 36pt;
+	padding-bottom: 36pt;
+	color: #F2E4B1;
+	text-shadow: 0px 4px 0px #576574;
+}
+
+footer {
+	font-size: 12pt;
+	color: var(--main-bright);
+	margin-top: 48px;
+}
+
+footer > div {
+	padding-top: 48px;
+	padding-bottom: 48px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+header a:link, header a:visited, header a:hover {
+	color: var(--white);
+	text-decoration: none;
+}
+
+nav {
+	font-family: 'Dosis', sans-serif;
+	padding: 8px;
+	background-color: var(--main-bright);
+	text-align: center;
+	font-size: 18pt;
+	display: flex;
+	justify-content: center;
+}
+
+nav a:link, nav a:visited, nav a:hover {
+	display: inline-block;
+	margin-right: 24px;
+	margin-left: 24px;
+	color: var(--white);
+	text-decoration: none;
+	font-weight: 400;
+}
+
+main {
+	width: 800px;
+	margin: 0 auto;
+}
+
+p {
+	text-align: justify;
+	line-height: 1.6;
+}
+
+li > p {
+	margin: 0;
+}
+
+.image-mosaic {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-auto-rows: 240px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #353535;
+	font-size: 3rem;
+	color: #fff;
+	box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+	height: 100%;
+	width: 100%;
+	border-radius: 4px;
+	transition: all 500ms;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+	.card-tall {
+		grid-row: span 2 / auto;
+	}
+
+	.card-xtall {
+		grid-row: span 3 / auto;
+	}
+
+	.card-wide {
+		grid-column: span 2 / auto;
+	}
+
+	.card-xwide {
+		grid-column: span 3 / auto;
+	}
+}
+
+.fullwidth-photo {
+	display: block;
+	background: #353535;
+	box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+	max-width: 800px;
+	max-height: 800px;
+	border-radius: 4px;
+	margin-top: 48px;
+	margin-bottom: 48px;
+}
