@@ -4,7 +4,7 @@ title: Interis Project
 ---
 # {{ title }}
 
-Interis is my design for a Zilog Z80-based home computer. The design prioritizes flexibility and expandability.
+Interis is my design for a Zilog Z80-based home computer. The design provides a usable base system, while allowing for nearly-unlimited expandability and flexibility.
 
 ### Features
 - Zilog Z80 processor at 7.4MHz

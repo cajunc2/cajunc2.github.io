@@ -6,7 +6,7 @@ title: Protec Microsystèmes PRO-83
 
 The PRO-83 is a Z80 microprocessor trainer produced by the Canadian company Protec Microsystèmes Inc.
 
-I purchased this example at the [VCF East](https://vcfed.org) event in October of 2021, not knowing anything about it except what little the seller could tell me. 
+I purchased this example at the <a href="https://vcfed.org/" target="_blank">VCF East</a> event in October of 2021, not knowing anything about it except what little the seller could tell me. 
 
 ### Features
 - Zilog Z80 CPU at 1.x MHz
