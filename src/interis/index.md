@@ -15,15 +15,12 @@ Interis is my family of homebrew computers. The computers are designed to provid
   - PS/2 Keyboard Interface
   - Realtime Clock/NVRAM
 - Four expansion slots (3 standard and 1 enhanced)
-- Microsoft BASIC in ROM
-- CP/M compatible with a disk expansion card
+- System monitor in ROM
 
 ### Interis 64 Expansion Cards
-- 4MB Memory Expansion
 - TMS9928A Video Card
-- SN76489 Sound Card
 - Yamaha OPL-2 Sound Card
-- SD Card "Disk" Interface
+- WD37C65C Floppy Controller
 - 320x240 Graphic LCD Interface Card
 
 

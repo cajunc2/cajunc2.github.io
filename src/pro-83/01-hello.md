@@ -31,9 +31,11 @@ Thank heavens for the manual, because I would've been completely lost otherwise.
 It provided some background on the system architecture, assembly instructions (if you had purchased it as a kit), sample programs, and an assembly listing for the monitor ROM.
 
 I tested a bunch of the basic functions and entered one of the example programs.
-It seemed at least the base unit was working.
-I had no idea how to test the keyboard or expansion card.
-There was nothing in the manual about either one.
+It seemed at least the base unit was working, so that was satisfying, but I had no idea how to test the keyboard or expansion card.
+There was nothing in the manual about either one and i couldn't even find evidence of their existence on the internet.
+
+Oh well, the base unit was still entertaining to play around with and was a satisfying curiosity.
+Maybe I could figure out the rest later.
 
 ---
 
