@@ -36,4 +36,6 @@ Magic erasers and elbow grease were my helpers for this one.
 
 And that's all for now. Keep reading for more updates.
 
+---
+
 [Back to Kaypro II](/kaypro/)

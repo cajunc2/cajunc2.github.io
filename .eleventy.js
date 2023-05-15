@@ -32,12 +32,12 @@ module.exports = function (eleventyConfig) {
 				cardClass += "card-xtall card-xwide "
 		}
 
-		var result = '<a data-gallery="kaypro-photos" href="/images/' + imageDir + '/' + imageFile + '" style="background-image: url(\'/images/' + imageDir + '/small/' + imageFile + '\')" class="' + cardClass + 'glightbox"></a>';
+		var result = '<a data-gallery="page-photos" href="/images/' + imageDir + '/' + imageFile + '" style="background-image: url(\'/images/' + imageDir + '/small/' + imageFile + '\')" class="' + cardClass + 'glightbox"></a>';
 		return result;
 	});
 
 	eleventyConfig.addShortcode("FullWidthImage", function (imageDir, imageFile) {
-		var result = '<a data-gallery="kaypro-photos" href="/images/';
+		var result = '<a data-gallery="page-photos" href="/images/';
 		result += imageDir;
 		result += '/';
 		result += imageFile;

@@ -4,12 +4,12 @@ title: Protec Microsystèmes PRO-83
 ---
 # {{ title }}
 
-The PRO-83 is a Z80 microprocessor trainer produced by the Canadian company Protec Microsystèmes Inc.
+The PRO-83 is a Z80 single-board computer produced by the Canadian company Protec Microsystèmes Inc.
 
 I purchased this example at the <a href="https://vcfed.org/" target="_blank">VCF East</a> event in October of 2021, not knowing anything about it except what little the seller could tell me. 
 
 ### Features
-- Zilog Z80 CPU at 1.x MHz
+- Zilog Z80 CPU at 2 MHz
 - 2KB DRAM
 - Machine language monitor in ROM
 - Six-digit display
@@ -27,6 +27,7 @@ I purchased this example at the <a href="https://vcfed.org/" target="_blank">VCF
 - QWERTY Matrix Keyboard (Apple II layout)
 
 {% if collections.PRO-83 %}
+---
 ## Articles
 {% for post in collections.PRO-83 %}
 - [{{ post.data.title }}]({{ post.url }})

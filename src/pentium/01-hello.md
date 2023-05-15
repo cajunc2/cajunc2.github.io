@@ -33,7 +33,7 @@ So DOS is all well and good, but that's not what we're here for, is it?
 {% FullWidthImage "pentium" "doominstall.jpeg" %}
 
 Much better!
-It's a bit anti-climactic without any sound and with the garbage keyboard I had on hand, but the processor and 96MB(!) of RAM check out fine.
+It's a bit anti-climactic without any sound and with the tiny keyboard I had on hand, but the processor and 96MB(!) of RAM check out fine.
 Time to get things going for real. I need some sound.
 
 Most would go SoundBlaster. It's the obvious choice. The standard.

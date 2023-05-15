@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-title: My Kaypro II
+title: The Kaypro II
 ---
 # {{ title }}
 
@@ -19,6 +19,9 @@ Mine isn't particularly special, but it *is* mine!
 {% endGallery %}
 
 {% if collections.Kaypro %}
+
+---
+
 ## Articles
 {% for post in collections.Kaypro %}
 - [{{ post.data.title }}]({{ post.url }})
