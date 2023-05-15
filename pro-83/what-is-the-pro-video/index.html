@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>What is the PRO-VIDEO? &mdash; Matthew's Tech OR</title>
+	<link rel="stylesheet" href="/css/global.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Dosis:wght@200;300;400;500;600;700;800" rel="stylesheet">
+
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+	<link rel="manifest" href="/icons/site.webmanifest">
+	<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/icons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="msapplication-config" content="/icons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="/css/glightbox.min.css" />
+	<script src="/scripts/glightbox.min.js"></script>
+</head>
+
+<body>
+	<header><a href="/">Matthew's Tech OR</a></header>
+	<nav>
+		<a href="/interis/">Interis</a>
+		<a href="/pro-83/">PRO-83</a>
+		<a href="/kaypro/">Kaypro II</a>
+		<a href="/pentium/">Pentium</a>
+		
+	</nav>
+	
+	<main>
+		<h1>What is the PRO-VIDEO?</h1>
+<p>So as per the previous article, I have a working PRO-83 computer.
+It does all the things the manual claims it does.</p>
+<p>But what about that extra card it came with?</p>
+<p>The manual claims the slot on the main unit is an S-100 slot, but a number of the pins carry different signals compared to the S-100 spec.
+The card that I have is clearly intended to go with this machine though, so whether it's truly S-100 compatible may not be important at the moment.</p>
+<p>So what about that card?</p>
+<ul>
+<li>It says PRO-VIDEO on it</li>
+<li>It has a two-pin connector labeled &quot;TV&quot;</li>
+<li>Near the TV connector is an MC6847P video chip and associated circuitry</li>
+<li>It's got a handful of pin headers</li>
+<li>There's an empty socket</li>
+<li>There are three EPROMs labeled U6, U7, and JEU</li>
+<li>There are 8 extra SRAM chips</li>
+<li>There's a switch labeled +5 and +25</li>
+</ul>
+<p>Clearly there's some video output here, but it seems like a LOT of extra circuitry and memory chips just for that.</p>
+<p>At this point in my &quot;career,&quot; I didn't have anything handy that could easily accept what I assumed was an RF signal on the TV connector, so it wasn't as simple as hooking it up and giving it a go.
+I'd have to do some digging around &quot;on paper&quot; to get some sense of what's going on.</p>
+<p>To start, I constructed a crude adapter to read the old 2532 EPROMs and dumped them to my lab PC.
+I couldn't make too much sense of the result at first.
+It seemed like <em>maybe</em> it was code?
+There was a lot of what seemed like junk in there though.</p>
+<p>Using the built-in system monitor tool, I was able to locate the memory space for the EPROMs, but something wasn't right.
+Big parts of the dump didn't match what I was seeing on the actual system.
+There had to be something wrong with my adapter.</p>
+<p>Rather than fiddle around with that and risking shorting some pins or otherwise fouling up the irreplaceable EPROMs, I decided to try a different way.
+I used an Arduino connected to the parallel IO chip on the PRO-83 to capture data and send it to my PC via the Arduino's serial connection.
+After some debugging, I got the PRO-83 program working and dumped the EPROMs to my PC via the Arduino.</p>
+<p>Now I had valid ROM dumps and everything matched what I saw on the system itself.
+Running them through a Z80 disassembler yielded something that sort of resembled program code, but it would take a lot of work to actually make sense of it. (A topic for a future article, of course)</p>
+
+	</main>
+
+	<script type="text/javascript">
+		const lightbox = GLightbox();
+	</script>
+
+	<footer>
+		<div>
+			All contents copyright &copy; 2022 Matthew Martin. All rights reserved. Check me out on <a href="https://github.com/cajunc2">GitHub</a>.
+		</div>
+	</footer>
+		
+</body>
+
+</html>
