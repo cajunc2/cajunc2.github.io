@@ -10,6 +10,13 @@ For others, a turn-of-the-milennium Windows 98 rig.
 
 For me? That's a top-notch Pentium, Windows 95, wavetable MIDI, and a 3Dfx Voodoo.
 
+{% Gallery %}
+	{% GalleryImage "pentium" "4.jpeg" "xlarge" %}
+	{% GalleryImage "pentium" "1.jpeg" %}
+	{% GalleryImage "pentium" "2.jpeg" %}
+	{% GalleryImage "pentium" "3.jpeg" %}
+{% endGallery %}
+
 ## Machine Specs:
 - NCR Class 3259 Base System
 - Intel Pentium 233 MMX
@@ -25,13 +32,6 @@ For me? That's a top-notch Pentium, Windows 95, wavetable MIDI, and a 3Dfx Voodo
 - Filco Majestouch TKL Keyboard with Cherry MX Red switches
 - CH Products F-16 FighterStick Joystick
 - InterAct MākoPad PC Gamepad
-
-{% Gallery %}
-	{% GalleryImage "pentium" "1.jpeg" %}
-	{% GalleryImage "pentium" "2.jpeg" %}
-	{% GalleryImage "pentium" "3.jpeg" %}
-	{% GalleryImage "pentium" "4.jpeg" "xlarge" %}
-{% endGallery %}
 
 {% if collections.Pentium %}
 ---

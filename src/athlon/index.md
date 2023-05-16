@@ -11,6 +11,13 @@ Turns out the guts weren't half bad either.
 I replaced the bad PSU with a Corsair CX430 (also picked up at VCF for a couple bucks) and upgraded the ATi Rage 128 Pro to a GeForce 3.
 I kept the old hard drive, but plopped in a known-good one for a fresh start. That's all it needed. The rest of it just took some deep cleaning and we were ready to rock!
 
+{% Gallery %}
+	{% GalleryImage "athlon" "1.jpeg" "xlarge" %}
+	{% GalleryImage "athlon" "2.jpeg" %}
+	{% GalleryImage "athlon" "3.jpeg" %}
+	{% GalleryImage "athlon" "4.jpeg" %}
+{% endGallery %}
+
 ## Machine Specs:
 - InWin S500 Chassis
 - AMD Athlon 750MHz Slot-A CPU
@@ -22,17 +29,10 @@ I kept the old hard drive, but plopped in a known-good one for a fresh start. Th
 - Sound Blaster PCI 128 Sound Card
 - Windows ME
 
-{% Gallery %}
-	{% GalleryImage "pentium" "1.jpeg" %}
-	{% GalleryImage "pentium" "2.jpeg" %}
-	{% GalleryImage "pentium" "3.jpeg" %}
-	{% GalleryImage "pentium" "4.jpeg" "xlarge" %}
-{% endGallery %}
-
-{% if collections.Pentium %}
+{% if collections.Athlon %}
 ---
 ## Articles
-{% for post in collections.Pentium %}
+{% for post in collections.Athlon %}
 - [{{ post.data.title }}]({{ post.url }})
 {% endfor %}
 {% endif %}

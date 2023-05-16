@@ -35,7 +35,8 @@ It seemed at least the base unit was working, so that was satisfying, but I had 
 There was nothing in the manual about either one and i couldn't even find evidence of their existence on the internet.
 
 Oh well, the base unit was still entertaining to play around with and was a satisfying curiosity.
-Maybe I could figure out the rest later.
+
+Maybe I could figure out the rest later...
 
 ---
 
