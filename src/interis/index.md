@@ -6,6 +6,8 @@ title: Interis Project
 
 Interis 64 is my homebrew computer project.
 
+{% FullWidthImage "interis" "render.jpg" %}
+
 ### Interis 64 Core Features
 - Zilog Z80 processor at 7.4MHz
 - 64KB RAM
