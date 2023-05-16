@@ -4,7 +4,7 @@ title: Interis Project
 ---
 # {{ title }}
 
-Interis is my family of homebrew computers. The computers are designed to provide a usable base system, while allowing for large amount of expandability and flexibility. The first (and so far only) model in the line is the Interis 64 8-bit computer.
+Interis 64 is my homebrew computer project.
 
 ### Interis 64 Core Features
 - Zilog Z80 processor at 7.4MHz
