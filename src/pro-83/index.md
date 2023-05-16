@@ -9,10 +9,10 @@ The PRO-83 is a Z80 single-board computer produced by the Canadian company Prote
 I purchased this example at the <a href="https://vcfed.org/" target="_blank">VCF East</a> event in October of 2021, not knowing anything about it except what little the seller could tell me. 
 
 {% Gallery %}
-	{% GalleryImage "pro-83" "4.jpeg" "xlarge" %}
-	{% GalleryImage "pro-83" "1.jpeg" %}
+	{% GalleryImage "pro-83" "1.jpeg" "xlarge" %}
 	{% GalleryImage "pro-83" "2.jpeg" %}
 	{% GalleryImage "pro-83" "3.jpeg" %}
+	{% GalleryImage "pro-83" "4.jpeg" %}
 {% endGallery %}
 
 ### Features
