@@ -19,17 +19,17 @@ For me, perfection is a Pentium processor, great-sounding MIDI music, and a 3Dfx
 
 ## Machine Specs:
 - NCR Class 3259 Base System
-- Intel Pentium 233 MMX
+- Intel Pentium 233 MMX Processor
 - 64MB EDO RAM
 - 8GB IDE Hard Disk
 - Floppy
 - CD-Rom
 - On-Board S3 ViRGE Graphics
-- Diamond Monster 3D 3Dfx Voodoo 4MB
-- ESS AudioDrive 1869F
+- Diamond Monster 3D (3Dfx Voodoo 4MB)
+- ESS AudioDrive 1869F Sound Card
 - <a href="https://www.serdashop.com/X2GS" target="_blank">DreamBlaster X2GS Wavetable Card</a>
-- Nokia 710C Flat CRT Monitor
-- Filco Majestouch TKL Keyboard with Cherry MX Red switches
+- Nokia 710C 17" Flat CRT Monitor w/ Speakers
+- Filco Majestouch TKL Keyboard
 - CH Products F-16 FighterStick Joystick
 - InterAct MākoPad PC Gamepad
 
