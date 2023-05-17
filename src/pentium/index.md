@@ -29,7 +29,7 @@ For me, perfection is a Pentium processor, great-sounding MIDI music, and a 3Dfx
 - ESS AudioDrive 1869F Sound Card
 - <a href="https://www.serdashop.com/X2GS" target="_blank">DreamBlaster X2GS Wavetable Card</a>
 - Nokia 710C 17" Flat CRT Monitor w/ Speakers
-- Filco Majestouch TKL Keyboard
+- Filco Majestouch 2 TKL Keyboard
 - CH Products F-16 FighterStick Joystick
 - InterAct MākoPad PC Gamepad
 
