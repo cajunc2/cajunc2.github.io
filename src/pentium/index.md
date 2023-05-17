@@ -6,9 +6,9 @@ title: Pentium MMX Gaming PC
 
 Every vintage computer enthusiast needs a classic gaming PC.
 For some, that means an XT class early DOS machine.
-For others, a turn-of-the-milennium Windows 98 rig.
+For others, a turn-of-the-millennium Windows 98 rig.
 
-For me? That's a top-notch Pentium, Windows 95, wavetable MIDI, and a 3Dfx Voodoo.
+For me, perfection is a Pentium processor, great-sounding MIDI music, and a 3Dfx Voodoo.
 
 {% Gallery %}
 	{% GalleryImage "pentium" "4.jpeg" "xlarge" %}
