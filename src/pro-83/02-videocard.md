@@ -43,6 +43,8 @@ I couldn't make too much sense of the result at first.
 It seemed like *maybe* it was code?
 There was a lot of what seemed like junk in there though.
 
+{% FullWidthImage "pro-83/02-videocard" "chipadapter.jpg" %}
+
 Using the built-in system monitor tool, I was able to locate the memory space for the EPROMs, but something wasn't right.
 Big parts of the dump didn't match what I was seeing on the actual system.
 There had to be something wrong with my adapter.
