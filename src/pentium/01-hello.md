@@ -17,13 +17,15 @@ At least seeing the computer museum at <a href="https://museum.syssrc.com/" targ
 Alas, it was time to call it a day.
 Vendors were all but packed up and gone.
 One last swing past the "free" table on the way to the car.
+
 What's that? A beige box?
+
 It's a compact case, so not much expansion room, but it's free.
-It's got a CPU, RAM, a hard drive.
+It's got a CPU, RAM, a hard drive, a NIC.
 Totally worth the price!
 
-I don't have any floppies or any other 3.5" drives, so installing from floppy is out of the question.
-The machine has no optical drive (and I don't have an extra), so burning CDs is also not an option.
+I didn't have any floppies or any other 3.5" drives, so installing from floppy is out of the question.
+The machine had no optical drive (and I didn't have an extra), so burning CDs was also not an option.
 Gotek to the rescue! Let's start with installing MS-DOS 6.22.
 
 {% FullWidthImage "pentium" "1.jpeg" %}
@@ -33,16 +35,16 @@ So DOS is all well and good, but that's not what we're here for, is it?
 {% FullWidthImage "pentium" "doominstall.jpeg" %}
 
 Much better!
-It's a bit anti-climactic without any sound and with the tiny keyboard I had on hand, but the processor and 96MB(!) of RAM check out fine.
-Time to get things going for real. I need some sound.
+It's a bit anti-climactic without any sound and with the tiny keyboard I had on hand, but the Pentium MMX 166 MHz processor and 96MB(!) of RAM check out fine.
+To get things going for real, I desperately needed some sound.
 
 Most would go SoundBlaster. It's the obvious choice. The standard.
-Problem is they're a bit expensive and you've gotta find just the right one so it has the right features and no bugs (MIDI hanging note bug?).
+Problem is they're a bit expensive and you've gotta find just the right one so it has the right features and no bugs (MIDI hanging note bug, anyone?).
 Thankfully, there's a quality alternative in the ESS AudioDrive cards. In this case, the ES1869F.
 
 It's SoundBlaster Pro compatible, so basically every DOS game works with no problem.
 For music, it's the ESSFM, which is an excellent clone of the Yamaha OPL2.
-It's also got a WaveBlaster header, which will come in handy.
+It's also got a WaveBlaster header, which will come in handy eventually.
 
 My brief time on eBay also led me to scratch an itch that's been bothering me since 1995.
 It was time to get a REAL joystick.
@@ -50,10 +52,9 @@ In this case, the object of my teenage, Descent-playing lust: The CH Products F-
 
 {% FullWidthImage "pentium" "joystick.jpeg" %}
 
-Decked out with a decent soundcard and plenty of control options, I was set!
+Now that the box was decked out with a decent soundcard and plenty of control options, I was set!
 Many hours of Doom, Duke Nukem 3D, Descent, Sim City 2000, Kings Quest VI, TIE Fighter, and others commenced.
 There was a brief flirtation with Windows 3.1, but DOS games were everything.
 
-And that's all for now. Keep reading for more updates.
-
+---
 [Back to Pentium](/pentium/)
