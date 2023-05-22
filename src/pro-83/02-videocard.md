@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-title: What is the PRO-VIDEO?
+title: What's a "PRO-VIDEO"?
 permalink: "pro-83/{{ title | slugify }}/"
 eleventyExcludeFromCollections: false
 tags:
