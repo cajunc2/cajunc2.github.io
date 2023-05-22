@@ -5,7 +5,7 @@ title: Other Stuff
 # {{ title }}
 
 <a class="other-page-link" href="/other/athlon">
-	<img src="/images/other/athlon/small/1.jpeg" style="max-width: 320px; max-height: 240px;" />
+	<img src="/images/other/athlon/small/1.jpeg" style="width: 320px; height: 240px; object-fit: cover;" />
 	<div>
 		<div class="link-title">AMD Athlon 750MHz Gaming PC</div>
 		<div class="link-description">
@@ -21,7 +21,7 @@ title: Other Stuff
 </a>
 
 <a class="other-page-link" href="/other/meets">
-	<img src="/images/other/meets/small/vcfe2023.jpg" style="max-width: 320px; max-height: 240px;" />
+	<img src="/images/other/meets/small/vcfe2023.jpg" style="width: 320px; height: 240px; object-fit: cover;" />
 	<div>
 		<div class="link-title">Events and Meetups</div>
 		<div class="link-description">
@@ -33,7 +33,7 @@ title: Other Stuff
 </a>
 
 <a class="other-page-link" href="/other/lab">
-	<img src="/images/other/lab/small/brokenamp.jpg" style="max-width: 320px; max-height: 240px;" />
+	<img src="/images/other/lab/small/brokenamp.jpg" style="width: 320px; height: 240px; object-fit: cover;" />
 	<div>
 		<div class="link-title">The Lab</div>
 		<div class="link-description">
