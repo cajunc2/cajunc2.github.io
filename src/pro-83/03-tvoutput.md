@@ -2,7 +2,7 @@
 layout: layout.njk
 title: Getting Video Out
 permalink: "pro-83/{{ title | slugify }}/"
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 tags:
 - PRO-83
 - PRO-VIDEO
