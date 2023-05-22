@@ -22,7 +22,7 @@ I purchased this example at the <a href="https://vcfed.org/" target="_blank">VCF
 - Six-digit display
 - 24-key keypad
 - Cassette interface
-- 100-pin expansion slot (Not S-100 compatible)
+- 100-pin expansion slot
 - Two user I/O ports
 - PRO-VIDEO Expansion Card
   - Additional 10KB system RAM
