@@ -20,3 +20,7 @@ I hit the data sheets for the video chips (MC6847P and MC1372P) and found an exa
 A few hours in KiCad and a week or two waiting for PCBs to ship from China and I had my own custom adapter board with a composite video jack.
 
 {% FullWidthImage "pro-83/03-tvoutput" "composite-pcb.jpg" %}
+
+---
+
+[Back to PRO-83](/pro-83/)

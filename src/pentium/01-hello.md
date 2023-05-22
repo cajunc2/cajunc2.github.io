@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-title: Hello Pentium
+title: Hello Pentium!
 permalink: "pentium/{{ title | slugify }}/"
 tags:
 - Pentium

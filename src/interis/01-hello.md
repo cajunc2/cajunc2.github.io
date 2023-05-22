@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-title: Hello Interis
+title: Hello Interis!
 permalink: "interis/{{ title | slugify }}/"
 eleventyExcludeFromCollections: true
 tags:

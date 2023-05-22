@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-title: Hello Kaypro II
+title: Hello Kaypro II!
 permalink: "kaypro/{{ title | slugify }}/"
 tags:
 - Kaypro

@@ -2,7 +2,7 @@
 layout: layout.njk
 title: What is the PRO-VIDEO?
 permalink: "pro-83/{{ title | slugify }}/"
-eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: false
 tags:
 - PRO-83
 - PRO-VIDEO
@@ -49,3 +49,6 @@ After some debugging, I got the PRO-83 program working and dumped the EPROMs to 
 Now I had valid ROM dumps and everything matched what I saw on the system itself.
 Running them through a Z80 disassembler yielded something that sort of resembled program code, but it would take a lot of work to actually make sense of it. (A topic for a future article, of course)
 
+---
+
+[Back to PRO-83](/pro-83/)
