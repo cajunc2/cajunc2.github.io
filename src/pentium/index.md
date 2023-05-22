@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-title: Pentium MMX Gaming PC
+title: Pentium Gaming PC
 ---
 # {{ title }}
 
@@ -31,7 +31,7 @@ For me, perfection is a Pentium processor, great-sounding MIDI music, and a 3Dfx
 
 {% if collections.Pentium %}
 ---
-## Articles
+## The Details
 {% for post in collections.Pentium %}
 - [{{ post.data.title }}]({{ post.url }})
 {% endfor %}

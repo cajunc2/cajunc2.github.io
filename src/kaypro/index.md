@@ -22,7 +22,7 @@ Mine isn't particularly special, but it *is* mine!
 
 ---
 
-## Articles
+## The Details
 {% for post in collections.Kaypro %}
 - [{{ post.data.title }}]({{ post.url }})
 {% endfor %}

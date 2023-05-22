@@ -36,18 +36,23 @@ module.exports = function (eleventyConfig) {
 		return result;
 	});
 
-	eleventyConfig.addShortcode("FullWidthImage", function (imageDir, imageFile) {
-		var result = '<a data-gallery="page-photos" href="/images/';
+	eleventyConfig.addShortcode("FullWidthImage", function (imageDir, imageFile, imageCaption) {
+		var result = '<div><a data-gallery="page-photos" href="/images/';
 		result += imageDir;
 		result += '/';
 		result += imageFile;
-
 		result += '" class="glightbox">';
 		result += '<img src="/images/';
 		result += imageDir;
 		result += '/small/';
 		result += imageFile;
-		result += '" class="fullwidth-photo" /></a>';
+
+		if(imageCaption) {
+			result += '" class="fullwidth-photo" /></a></div>';
+			result += '<div class="fullwidth-photo-caption">' + imageCaption + '</div>';
+		} else {
+			result += '" class="fullwidth-photo nocaption" /></a></div>';
+		}
 		return result;
 	});
 
