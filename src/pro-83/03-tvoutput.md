@@ -36,13 +36,15 @@ I guess troubleshooting could wait until after I've explored things a bit.
 
 I decided to run the program that was on the ROM chip labeled "JEU" at address 0x7000, so I got to work entering commands:
 
-- REX
-- 5 (PC)
-- 70
-- NEX
-- 00
-- NEX
-- EXE
+```
+REX
+5 (PC)
+70
+NEX
+00
+NEX
+EXE
+```
 
 {% FullWidthImage "pro-83/03-tvoutput" "balle.jpg" %}
 
