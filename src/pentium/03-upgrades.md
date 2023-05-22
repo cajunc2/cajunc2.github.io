@@ -47,7 +47,7 @@ I'm not sure how it happened (total mystery, I swear) but a 4MB Diamond Monster 
 Just like the one I had back in the 90s.
 I wasted NO time popping that sucker in and getting drivers installed.
 
-{% FullWidthImage "pentium/03-upgrades" "internals.jpg" %}
+{% FullWidthImage "pentium/03-upgrades" "internals.jpeg" %}
 {% FullWidthImage "pentium/03-upgrades" "voodoo.jpg" %}
 
 Ahhhhhhh...
