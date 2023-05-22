@@ -34,14 +34,13 @@ a:link, a:visited, a:hover {
 
 header {
 	font-family: 'Dosis', sans-serif;
-	background-color: #1E2B39;
+	background-color: var(--main-dark);
 	font-size: 48pt;
 	font-weight: 600;
 	text-align: center;
 	padding-top: 36pt;
 	padding-bottom: 36pt;
-	color: #F2E4B1;
-	text-shadow: 0px 4px 0px #576574;
+	text-shadow: 0px 4px 0px var(--main-bright);
 }
 
 footer {
@@ -51,10 +50,11 @@ footer {
 }
 
 footer > div {
-	padding-top: 48px;
-	padding-bottom: 48px;
+	padding-top: 12px;
+	padding-bottom: 24px;
 	width: 800px;
 	margin: 0 auto;
+	border-top: 1px solid var(--main-light);
 }
 
 header a:link, header a:visited, header a:hover {
@@ -149,5 +149,53 @@ li > p {
 	max-height: 800px;
 	border-radius: 4px;
 	margin-top: 48px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fullwidth-photo.nocaption {
 	margin-bottom: 48px;
+}
+
+.fullwidth-photo-caption {
+	font-style: italic;
+	font-size: 12pt;
+	color: var(--main-light);
+	margin-bottom: 48px;
+}
+
+a.other-page-link {
+	display: flex;
+	height: 240px;
+	text-decoration: none;
+	border-radius: 4px;
+	background-color: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	color: black;
+	margin-bottom: 32px;
+}
+
+a.other-page-link > img {
+	vertical-align: middle;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+a.other-page-link > div {
+	display: flex;
+	flex-direction: column;
+	margin: 16px;
+}
+
+a.other-page-link div.link-title {
+	display: block;
+	font-family: 'Dosis', sans-serif;
+	font-size: 18pt;
+	font-weight: 600;
+	color: var(--main-dark);
+}
+
+a.other-page-link div.link-description {
+	font-size: 12pt;
+	color: var(--main-bright);
 }
