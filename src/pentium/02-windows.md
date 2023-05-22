@@ -35,5 +35,10 @@ It took some driver digging, as it typically does. Once I had all the hardware c
 What a classic!
 Of course, it's not the most well-optimized game and a Pentium 166 isn't a real screamer, but who cares about such things when the game is so good?!
 
+As a bonus, it solved all the DOS hardware hell too.
+Anything I tried worked perfectly in a Windows 95 DOS box, so I was done messing with pure DOS mode drivers.
+I know it's sacrilege to a lot of folks, but if you've got a Win 9x system and play DOS games, I'd strongly recommend trying things out inside Windows.
+It's a whole lot faster than rebooting!
+
 ---
 [Back to Pentium](/pentium/)
