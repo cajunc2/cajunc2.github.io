@@ -45,8 +45,35 @@ I tried pointing the program counter register at the addresses at the beginning 
 If anything was happening, I was going to need working video output to see it.</p>
 <p>Since I didn't have access to equipment that would receive an analog RF television signal, I did what anyone would do.
 I hit the data sheets for the video chips (MC6847P and MC1372P) and found an example circuit for composite video output.
-A few hours in KiCad and a week or two waiting for PCBs to ship from China and I had my own custom adapter board with a composite video jack.</p>
-<p><a data-gallery="page-photos" href="/images/pro-83/03-tvoutput/composite-pcb.jpg" class="glightbox"><img src="/images/pro-83/03-tvoutput/small/composite-pcb.jpg" class="fullwidth-photo" /></a></p>
+A few (read: so so many) hours in KiCad and a week or two waiting for PCBs to ship from China and I had my own custom adapter board with a composite video jack.</p>
+<p><a data-gallery="page-photos" href="/images/pro-83/03-tvoutput/installed.jpg" class="glightbox"><img src="/images/pro-83/03-tvoutput/small/installed.jpg" class="fullwidth-photo" /></a></p>
+<p>Assembly was quick and a test-fit was successful. Time to get it hooked up to a TV!</p>
+<p>It's only moderately embarrassing to admit that I didn't have a good way to output composite video at this point in my &quot;career.&quot;
+I did have a TV in the bedroom with a composite input though, so I lugged the whole pile upstairs, hooked it all up, powered it on, and.................</p>
+<p><a data-gallery="page-photos" href="/images/pro-83/03-tvoutput/firstlight.jpg" class="glightbox"><img src="/images/pro-83/03-tvoutput/small/firstlight.jpg" class="fullwidth-photo" /></a></p>
+<p>Um, okay. Well it's clearly WORKING... sort of? It's awfully green.
+I checked my connections and everything looked good.
+No missed or bad solder joints.
+I guess troubleshooting could wait until after I've explored things a bit.
+(Yes, I know any TRS-80 CoCo owners are screaming right now. Just bear with me for the sake of the narrative!)</p>
+<p>I decided to run the program that was on the ROM chip labeled &quot;JEU&quot; at address 0x7000, so I got to work entering commands:</p>
+<ul>
+<li>REX</li>
+<li>5 (PC)</li>
+<li>70</li>
+<li>NEX</li>
+<li>00</li>
+<li>NEX</li>
+<li>EXE</li>
+</ul>
+<p><a data-gallery="page-photos" href="/images/pro-83/03-tvoutput/balle.jpg" class="glightbox"><img src="/images/pro-83/03-tvoutput/small/balle.jpg" class="fullwidth-photo" /></a></p>
+<p>My suspicion that the author was french-speaking (&quot;jeu&quot; being French for &quot;game&quot;) was confirmed.
+&quot;Balle au Mur&quot; translates to &quot;Wall Ball&quot; in English.</p>
+<p>It took a bit of fiddling to figure out how to properly connect the included keyboard and figure out what keys do what, but indeed it's a clone of Breakout!</p>
+<p><a data-gallery="page-photos" href="/images/pro-83/03-tvoutput/balle2.jpg" class="glightbox"><img src="/images/pro-83/03-tvoutput/small/balle2.jpg" class="fullwidth-photo" /></a></p>
+<p>For those who are curious, it's on the crude side, as far as the gameplay is concerned. And after the ball hits the paddle the first time, the game accelerates to a ludicrously difficult speed.</p>
+<p>Pretty exciting stuff, I have to say! I did do some more research on the MC6847P and realized that, of course, the color palette is completely normal and everything with the adapter board is working perfectly.</p>
+<p>Next, we'll explore the rest of what's on this card and get into something really deep...</p>
 <hr>
 <p><a href="/pro-83/">Back to PRO-83</a></p>
 
