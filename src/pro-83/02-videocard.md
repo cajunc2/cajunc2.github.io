@@ -19,6 +19,9 @@ The manual claims the slot on the main unit is an S-100 slot, but a number of th
 The card that I have is clearly intended to go with this machine though, so whether it's truly S-100 compatible may not be important at the moment.
 
 So what about that card?
+
+{% FullWidthImage "pro-83/02-videocard" "card.jpg" %}
+
 - It says PRO-VIDEO on it
 - It has a two-pin connector labeled "TV"
 - Near the TV connector is an MC6847P video chip and associated circuitry
@@ -32,6 +35,8 @@ Clearly there's some video output here, but it seems like a LOT of extra circuit
 
 At this point in my "career," I didn't have anything handy that could easily accept what I assumed was an RF signal on the TV connector, so it wasn't as simple as hooking it up and giving it a go.
 I'd have to do some digging around "on paper" to get some sense of what's going on.
+
+{% FullWidthImage "pro-83/02-videocard" "tvout.jpg" %}
 
 To start, I constructed a crude adapter to read the old 2532 EPROMs and dumped them to my lab PC.
 I couldn't make too much sense of the result at first.
