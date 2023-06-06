@@ -35,10 +35,10 @@ title: Other Stuff
 <a class="other-page-link" href="/other/lab">
 	<img src="/images/other/lab/small/brokenamp.jpg" style="width: 320px; height: 240px; object-fit: cover;" />
 	<div>
-		<div class="link-title">The Lab</div>
+		<div class="link-title">Deep in the Lab</div>
 		<div class="link-description">
 			<p>
-				This is where the magic happens! Also the place to find small hardware and other miscellaneous things.
+				This is where the magic happens! Detailed repairs, small hardware projects, and other miscellaneous things.
 			</p>
 		</div>
 	</div>
