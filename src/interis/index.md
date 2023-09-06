@@ -8,7 +8,7 @@ Interis 64 is my homebrew computer project. Like so many before mine, it started
 
 After countless prototypes and three finished PCB revisions, it's getting close to a point where I'd like to open-source the design and source code.
 As of Spring 2023, it will boot from floppy disks or to an in-ROM system monitor.
-Long-term, it should be able to run CP/M.
+Long-term, it will be able to run CP/M and an assortment of other disk software written specifically for Interis.
 
 {% FullWidthImage "interis" "render.jpg" "Interis 64 Rev. C PCB (KiCad render)" %}
 
