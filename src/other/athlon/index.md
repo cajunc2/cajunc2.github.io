@@ -26,5 +26,6 @@ I kept the old hard drive, but plopped in a known-good one for a fresh start. Th
 - 3.5" Floppy Drive
 - CD-ROM
 - Nvidia GeForce 3 Ti 200 Video Card
-- Sound Blaster PCI 128 Sound Card
+- Aureal Vortex Sound Card
+- Serdaco E-Wave Wavetable Card
 - Windows ME
